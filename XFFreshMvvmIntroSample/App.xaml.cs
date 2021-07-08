@@ -1,6 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using XFFreshMvvmIntroSample.PageModels;
 
 namespace XFFreshMvvmIntroSample
 {
@@ -10,7 +11,7 @@ namespace XFFreshMvvmIntroSample
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = FreshMvvm.FreshPageModelResolver.ResolvePageModel<MainPageModel>();
         }
 
         protected override void OnStart()

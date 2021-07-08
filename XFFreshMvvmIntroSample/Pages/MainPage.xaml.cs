@@ -5,8 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using XFFreshMvvmIntroSample.PageModels;
 
-namespace XFFreshMvvmIntroSample
+namespace XFFreshMvvmIntroSample.Pages
 {
     public partial class MainPage : ContentPage
     {
